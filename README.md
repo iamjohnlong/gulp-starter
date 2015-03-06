@@ -2,10 +2,10 @@
 
 ##Includes
 
-  *browserSync
-  *watchify
-  *browserify
-  *sass
+  * browserSync
+  * watchify
+  * browserify
+  * sass
 
 run
 ```
