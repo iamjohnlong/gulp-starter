@@ -32,10 +32,6 @@ bundler.on 'log', gutil.log
 
 gulp.task 'js', bundle
 
-gulp.task 'components', ['server'], ->
-  gulp.src './app/assets/components/**/*'
-    .pipe gulp.dest './tmp/assets/components'
-
 gulp.task 'html', ->
   gulp.src './app/index.html'
     .pipe gulp.dest './tmp'
@@ -59,6 +55,6 @@ gulp.task 'watch', ->
   gulp.watch 'app/**/*.html', ["html"]
   gulp.watch 'app/**/*.scss', ["sass"]
 
-gulp.task 'serve', ['server', 'html', 'sass', 'js', 'components']
+gulp.task 'serve', ['server', 'html', 'sass', 'js']
 
 gulp.task 'default', ['serve', 'server', 'watch']
