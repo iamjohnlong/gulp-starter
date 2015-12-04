@@ -5,6 +5,7 @@
   * browserSync
   * watchify
   * browserify
+  * Bable (es6)
   * sass
 
 run
