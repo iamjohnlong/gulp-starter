@@ -3,8 +3,7 @@
 ##Includes
 
   * browserSync
-  * watchify
-  * browserify
+  * Rollupjs
   * Bable (es6)
   * sass
 
